@@ -4,16 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Info</title>
-    <link rel="icon" href="FavIcon_league.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1ce16f5617.js" crossorigin="anonymous"></script>
+    <body style="min-height: 100vh;"></body>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="">
+            <div class="container-fluid">
+                <a class="navbar-brand app-name" href="Actividad 4.12.html">
+                    <img src="lol-logo.png" alt="Logo" class="logo">
+                    League of Info
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="Actividad 4.12.html">
+                            <i class="fas fa-house"></i> <span class="d-none d-md-inline">Home</span>
+                        </a>
+                        <a class="nav-link" href="#testimonials">
+                            <i class="fas fa-question"></i> Champs Info
+                        </a>
+                        <a class="nav-link" href="#coach-plan-section">
+                            <i class="fas fa-eye"></i> Coaching
+                        </a>
+                        <a class="nav-link" href="Registrarse.html">
+                            <i class="far fa-rectangle-list"></i> Registrarse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="custom-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="custom-bg p-4 rounded">
+                        <h2 class="text-center mb-4">Acerca de League of Info</h2>
+                        <p class="text-center">League of Info es una plataforma dedicada a proporcionar información y recursos sobre el popular juego League of Legends.</p>
+                        <p class="text-center">Con una amplia variedad de contenido, desde guías de campeones hasta servicios de coaching personalizados, estamos aquí para ayudarte a mejorar tu juego y alcanzar tus metas en League of Legends.</p>
+                        <p class="text-center">¡Regístrate ahora para acceder a todo nuestro contenido exclusivo y dar el siguiente paso hacia la grandeza en el campo de la Grieta del Invocador!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 style="font-size: 1.5rem; color: black;">Campeones OP de la semana</h2>
+                    <div class="carousel slide" id="testimonials-carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial">
+                                    <img src="ahri cara.png" alt="campeon" class="img-fluid rounded-circle mb-3" width="100">
+                                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Ahri, la mujer zorro de 9 colas</em>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <img src="tf.png" alt="campeon" class="img-fluid rounded-circle mb-3" width="100">
+                                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Twisted fate, el maestro de las cartas</em>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <img src="vayne.png" alt="campeon" class="img-fluid rounded-circle mb-3" width="100">
+                                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Vayne, la cazadora Noctívaga</em>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <img src="yone.png" alt="campeon" class="img-fluid rounded-circle mb-3" width="100">
+                                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Yone, el imperecedero</em>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <img src="kai sa.png" alt="campeon" class="img-fluid rounded-circle mb-3" width="100">
+                                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Kai sa, la hija de vacío</em>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="coach-plan-section" id="coach-plan-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="coach pochete.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Probando, probando </h3>
+                                <h3>(1 semana gratuita) </h3>
+                                <p>- Acceso gratuito durante 3 días.</p>
+                                <p>- Incluye sesiones de coaching personalizado y recursos exclusivos.</p>
+                                <p>- Ideal para aquellos que desean probar nuestros servicios antes de comprometerse.</p>
+                                <p>Precio: Gratuito</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="coach rarete.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Tanteando terreno</h3>
+                                <h3>(1 mes estándar) </h3>
+                                <p>- Acceso completo durante 1 mes a la versión estándar del plan de coach.</p>
+                                <p>- Incluye sesiones de coaching personalizado, análisis detallado y seguimiento de progreso.</p>
+                                <p>- Recomendado para jugadores que buscan mejorar constantemente su juego.</p>
+                                <p>Precio: 14.99€</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box ">
+                                <img src="Coach weno.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Casi challenger </h3>
+                                <h3>(1 año estándar) </h3>
+                                <p>- Acceso completo durante 1 año a la versión estándar del plan de coach.</p>
+                                <p>- Ofrece un enfoque a largo plazo para el desarrollo de habilidades en League of Legends.</p>
+                                <p>- Perfecto para jugadores comprometidos que desean un soporte continuo en su mejora.</p>
+                                <p>Precio: 99.99€</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="Coach muy bueno.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Oliendo la fama</h3>
+                                <h3>(3 días premium) </h3>
+                                <p>- Acceso premium gratuito durante 1 semana.</p>
+                                <p>- Incluye todos los beneficios del plan estándar y funciones premium adicionales.</p>
+                                <p>- Excelente opción para experimentar los beneficios adicionales de la membresía premium.</p>
+                                <p>Precio: Gratuito</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="Coach pro.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Maestro estratega</h3>
+                                <h3>(1 mes premium) </h3>
+                                <p>- Acceso premium completo durante 1 mes.</p>
+                                <p>- Ofrece características avanzadas, como sesiones de coaching intensivas y análisis detallados.</p>
+                                <p>- Recomendado para jugadores serios que buscan un enfoque más personalizado y profundo.</p>
+                                <p>Precio: 24.99€</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="Coach god.jfif" alt="Nombre del producto" class="img-fluid">
+                                <h3>Tryhard máximo </h3>
+                                <h3>(1 año premium) </h3>
+                                <p>- Acceso premium completo durante 1 año.</p>
+                                <p>- Proporciona el máximo nivel de soporte y beneficios premium.</p>
+                                <p>- Ideal para jugadores dedicados que desean el más alto nivel de asesoramiento y recursos disponibles.</p>
+                                <p>Precio: 149.99€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="redes-sociales">
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:contacto@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 300;">&copy; Copyright 2024 League of Info </p>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 300;">Made by <a style="text-decoration: none; color: white;" href="https://github.com/Davleirrol/LND-David_UT4">David Pérez Moreno</a></p>
+      </footer>  
+
     
     <style>
         body {
             position: relative;
-            height: 100vh;
             margin: 0;
+            padding-bottom: 0px; 
+            min-height: 100vh;
+            
         }
 
         body::before {
@@ -27,8 +216,16 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            opacity: 0.8;
             z-index: -1;
+            background-attachment: fixed; /* Mantener la imagen de fondo estática */
+
+        }
+        .custom-section {
+            min-height: 300px; /* Ajusta la altura mínima según sea necesario */
+        }
+        
+        .coach-plan-section {
+            min-height: 300px; /* Ajusta la altura mínima según sea necesario */
         }
 
         .logo {
@@ -37,50 +234,145 @@
         }
 
         .navbar {
-            background-color: transparent !important; /* Hace que el navbar sea transparente */
-            border-bottom: none; /* Elimina el borde inferior del navbar */
+            background-color: rgba(255, 255, 255, 0.69) !important; 
+            border-bottom: none; 
+            color: black;
+            font-weight: bold;
         }
 
         .nav-link {
             display: flex;
             align-items: center;
             gap: 5px;
+            color: black;
         }
 
-        .nav-link:hover .fa {
-            color: red;
+        .nav-link:hover {
+            color: rgb(156, 126, 69);
         }
+        
+        .navbar-brand:hover {
+            color: rgb(156, 126, 69);
+        }
+
+        .custom-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-left: 10%;
+            margin-right: 10%;
+            padding: 0 20px; 
+        }
+
+        .custom-bg {
+            color: #000; 
+            padding: 20px; 
+
+        }
+
+
+        .container {
+            font-size: 16px;
+        }
+
+        .navbar-brand {
+            color: black;
+        }
+
+        #testimonials {
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(69, 160, 202, 0.7);
+            margin-bottom: 50px;
+            margin-top: 50px;
+            
+        }
+
+        #testimonials .carousel-control-prev, #testimonials .carousel-control-next {
+            width: auto;
+            color: black;
+            background-color: transparent; 
+        }
+
+        #testimonials .carousel-control-prev-icon, #testimonials .carousel-control-next-icon {
+            background-color: transparent; 
+        }
+
+        #testimonials .carousel-control-prev:hover, #testimonials .carousel-control-next:hover {
+            color: rgb(156, 126, 69,);
+        }
+
+        .testimonial {
+            text-align: center;
+        }
+
+        .coach-plan-section .box {
+            margin-bottom: 20px;
+        }
+
+        .box {
+            background-color: rgba(240, 240, 240, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            height: 400px;
+            flex-wrap: wrap;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box img {
+        position: absolute;
+        bottom: 10px; /* Espacio de 10 píxeles desde el borde inferior */
+        right: 10px; /* Espacio de 10 píxeles desde el borde derecho */
+        max-width: calc(70px); /* Ajustar el tamaño máximo de la imagen */
+        max-height: calc(70px); /* Ajustar el tamaño máximo de la imagen */
+        /* Estilos adicionales para la imagen */
+        border-radius: 5px; /* Bordes redondeados */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+    }
+
+        /* Estilos de agrupación responsiva */
+        @media screen and (max-width: 992px) {
+            .coach-plan-section .col-md-4 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .coach-plan-section .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+        
+        footer#footer {
+        background-color: rgba(29, 93, 122, 0.7);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        margin-top: 50px;
+        }
+
+        .redes-sociales {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        }
+
+        .redes-sociales a {
+        margin: 0 10px;
+        color: #fff;
+        font-size: 18px;
+        transition: 0.3s;
+        }
+
+        .redes-sociales a:hover {
+        color: #4caeff;
+        }
+
     </style>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="">
-            <div class="container-fluid">
-                <a class="navbar-brand app-name" href="#">
-                    <img src="lol-logo.png" alt="Logo" class="logo">
-                    League of Info
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <i class="fas fa-house"></i> Home
-                        </a>
-                        <a class="nav-link" href="Info.htlm">
-                            <i class="fas fa-question"></i> Champs Info
-                        </a>
-                        <a class="nav-link" href="Coaching.htlm">
-                            <i class="fas fa-eye"></i> Coaching
-                        </a>
-                        <a class="nav-link" href="Registrarse.html">
-                            <i class="far fa-rectangle-list"></i> Registrarse
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
 </body>
 </html>
