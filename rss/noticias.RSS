@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias Destacadas</title>
+        <image>
+            <url>enlace_a_tu_imagen_principal.jpg</url>
+        </image>
+        <description>Las últimas noticias destacadas de League of Info</description>
+        <language>es-es</language>
+        <lastBuildDate>Thu, 11 Mar 2024 13:00:00 GMT</lastBuildDate>
+        <item>
+            <title>Nueva actualización del juego</title>
+            <description>¡Prepárate para la próxima gran actualización de League of Legends! Descubre las nuevas características, ajustes de equilibrio y más.</description>
+            <image>
+                <url>enlace_a_imagen_actualizacion.jpg</url>
+            </image>
+            <pubDate>Thu, 10 Mar 2024 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Anuncio del próximo campeonato mundial</title>
+            <link>https://tu-sitio-web.com/noticias_destacadas/campeonato_mundial</link>
+            <description>¡Se ha anunciado la sede y las fechas del próximo campeonato mundial de League of Legends! Prepárate para la emoción y la competencia mientras los mejores equipos del mundo se enfrentan por el título.</description>
+            <image>
+                <url>enlace_a_imagen_campeonato.jpg</url>
+            </image>
+            <pubDate>Wed, 09 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Nuevos aspectos de campeones disponibles</title>
+            <description>¡Descubre los últimos aspectos de campeones añadidos al juego! Desde elegantes hasta terroríficos, hay algo para todos los gustos.</description>
+            <image>
+                <url>enlace_a_imagen_aspectos.jpg</url>
+            </image>
+            <pubDate>Tue, 08 Mar 2024 19:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

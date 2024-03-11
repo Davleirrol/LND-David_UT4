@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Info</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1ce16f5617.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="">
+            <div class="container-fluid">
+                <a class="navbar-brand app-name" href="../index.html">
+                    <img src="lol-logo.png" alt="Logo" class="logo">
+                    League of Info
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">
+                            <i class="fas fa-house"></i> <span class="d-none d-md-inline">Home</span>
+                        </a>
+                        <a class="nav-link" aria-current="page" href="../index.html">
+                            <i class="fas fa-question"></i> Champs Info
+                        </a>
+                        <a class="nav-link" aria-current="page" href="../index.html">
+                            <i class="fas fa-eye"></i> Coaching
+                        </a>
+                        <a class="nav-link" href="../Registrarse.html">
+                            <i class="far fa-rectangle-list"></i> Registrarse
+                        </a>
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-newspaper"></i> Index RSS
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <div class="rounded p-4" style="background-color: rgba(255, 255, 255, 0.7);">
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <a href="noticias.RSS"><img src="Imagen RSS.gif" alt="RSS" style="width: 50px; margin-right: 10px;"></a>
+                <h1 class="text-center">Últimas noticias</h1>
+            </div>
+            <p class="text-center">Aquí podrás ver las últimas noticias del sitio web.</p>
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <a href="ofertas.RSS"><img src="Imagen RSS.gif" alt="RSS" style="width: 50px; margin-right: 10px;"></a>
+                <h2 class="text-center">Las mejores ofertas</h2>
+            </div>
+            <p class="text-center">Aquí podrás ver las ofertas que se están ofreciendo o se han ofrecido.</p>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        position: relative;
+        margin: 0;
+        padding-bottom: 80px;
+        min-height: 100vh;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('Fondo Registro0.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        opacity: 0.9; /* Transparencia del fondo */
+    }
+
+    .logo {
+        width: 30px;
+        height: auto;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.69) !important;
+        border-bottom: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: black;
+    }
+
+    .nav-link:hover {
+        color: rgb(156, 126, 69);
+    }
+
+    .navbar-brand:hover {
+        color: rgb(156, 126, 69);
+    }
+
+</style>
+</html>
